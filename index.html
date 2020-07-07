@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;700&display=swap" rel="stylesheet"> 
+    <title>Resistor Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="box-title">Resistor Calculator</h1>
+            <div class="box-first">
+                <label for="">First band</label>
+                <input type="text" name="first" id="first" placeholder="First color">
+            </div>
+            <div class="box-second">
+                <label for="">Second band</label>
+                <input type="text" name="second" id="second" placeholder="Second color">       
+            </div>
+            <div class="box-third">
+                <label for="">Third band</label>
+                <input type="text" name="third" id="third" placeholder="Third color">       
+            </div>
+            <div class="box-fourth">
+                    <label for="">Fourth band</label>
+                    <input type="text" name="fourth" id="fourth" placeholder="Fourth color">       
+                </div>
+            <div class="box-check">
+                <input type="button" value="Check">
+            </div>  
+        </div>
+        <div class="box-result">
+            <h2 class="box-result-title">Resistence value</h2>
+            <h2 class="box-result-val"> <span class="val">0</span> Ω ± <span class="erro">0</span> %</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

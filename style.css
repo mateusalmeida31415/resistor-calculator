@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #057570;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+  height: 100vh;
+  background-image: url("fundo.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box-title {
+  text-align: center;
+  padding: 40px;
+}
+
+.box-first, .box-second, .box-third, .box-fourth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 10px;
+}
+
+.box-first label, .box-second label, .box-third label, .box-fourth label {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0px 0px 5px 5px;
+}
+
+.box-first input[type="text"], .box-second input[type="text"], .box-third input[type="text"], .box-fourth input[type="text"] {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(100, 100, 100, 0.4);
+  border: none;
+  color: #057570;
+}
+
+.box-check {
+  margin: 20px 10px;
+}
+
+.box-check input[type="button"] {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  background-color: #057570;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.box-check input[type="button"]:hover {
+  background-color: #fff;
+  -webkit-transition: background-color 0.5s linear;
+  transition: background-color 0.5s linear;
+  color: #057570;
+}
+
+.box-result {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  border-radius: 10px;
+  margin: 20px;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box-result-title {
+  text-align: center;
+  margin: 20px;
+}
+
+.box-result-val {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */
